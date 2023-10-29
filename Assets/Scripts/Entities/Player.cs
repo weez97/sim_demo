@@ -1,10 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
-using CharacterAnimator;
+using EventTools;
 using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    public enum Direction
+    {
+        none, up, right, down, left
+    }
+
+    public enum State
+    {
+        idle, walking, running
+    }
+
     private Direction direction;
     private State state;
 
@@ -29,7 +39,7 @@ public class Player : MonoBehaviour
     private void Update()
     {
         ProcessInput();
-        EventHandler.AnimMovement(xInput, yInput, state, direction);
+        CustomEventHandler.AnimMovement(xInput, yInput, state, direction, transform.position.y);
     }
 
     private void FixedUpdate()
@@ -45,6 +55,9 @@ public class Player : MonoBehaviour
 
     private void ProcessInput()
     {
+        if (Input.GetKeyDown(KeyCode.I))
+            CustomEventHandler.CallUiScreen("shop");
+
         xInput = Input.GetAxisRaw("Horizontal");
         yInput = Input.GetAxisRaw("Vertical");
 

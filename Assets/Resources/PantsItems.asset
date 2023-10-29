@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b910ae1b8c54dc747af21cf182adb529, type: 3}
-  m_Name: ShirtItems
+  m_Name: PantsItems
   m_EditorClassIdentifier: 
-  category: shirt
+  category: pants
   items:
   - id: None
     animationClip: {fileID: 9100000, guid: 33ecfd3b38730684eaf10015ff277651, type: 2}
   - id: Basic
-    animationClip: {fileID: 9100000, guid: 809491857ba0c084a84975d884765fbe, type: 2}
+    animationClip: {fileID: 9100000, guid: f18475ff0009ff540b29be675d3d6b72, type: 2}

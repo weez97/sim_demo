@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b910ae1b8c54dc747af21cf182adb529, type: 3}
   m_Name: ShoesItems
   m_EditorClassIdentifier: 
+  category: shoes
   items:
   - id: None
-    animationClip: {fileID: 0}
+    animationClip: {fileID: 9100000, guid: 33ecfd3b38730684eaf10015ff277651, type: 2}
   - id: Basic
     animationClip: {fileID: 9100000, guid: eb2277adce2dd9b4ea11f3bf08020fd8, type: 2}

@@ -13,6 +13,7 @@ public class ShopCategory : ScriptableObject
         public AnimatorController animationClip;
     }
 
+    public string category;
     public List<ShopItemDTO> items;
 
 }
