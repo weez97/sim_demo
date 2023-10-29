@@ -5,8 +5,8 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    [SerializeField] private Direction direction;
-    [SerializeField] private State state;
+    private Direction direction;
+    private State state;
 
     private float xInput, yInput;
     private float moveSpeed;
@@ -29,12 +29,12 @@ public class Player : MonoBehaviour
     private void Update()
     {
         ProcessInput();
+        EventHandler.AnimMovement(xInput, yInput, state, direction);
     }
 
     private void FixedUpdate()
     {
         Move();
-        EventHandler.AnimMovement(xInput, yInput, state, direction);
     }
 
     private void Move()

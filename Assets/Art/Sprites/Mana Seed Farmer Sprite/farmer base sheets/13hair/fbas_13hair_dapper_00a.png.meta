@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -42,12 +42,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 25
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -76,9 +76,558 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: fbas_13hair_dapper_00a_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c3b9031fd38fe46a42bc976a56712d
+      internalID: -1763994078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_13hair_dapper_00a_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2994ed6de607746b97c12c68c1d99c
+      internalID: 1257825980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_13hair_dapper_00a_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d30171bc5b65c4d8700f4b2e77d7b2
+      internalID: -2067416261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_13hair_dapper_00a_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 034a7f1a60644b241b4e5a69c2aade8c
+      internalID: -642672977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_13hair_dapper_00a_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63d67caa15344a345a3da077eb6b659e
+      internalID: -1850551824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_13hair_dapper_00a_18
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02a6ce56f5fae45409e972afa5e114af
+      internalID: -813216931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_13hair_dapper_00a_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 084d731d1da56ff4abe5907c3be0d15a
+      internalID: -298189368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_13hair_dapper_00a_33
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f296279e764076a4797b5eca7c806095
+      internalID: -938398592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_13hair_dapper_00a_34
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c7862f77f4851d4ab2c78a7677aa699
+      internalID: 196915320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_13hair_dapper_00a_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e08ba0a8ffa954b9bb5e17bb4a6537
+      internalID: -44895102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_13hair_dapper_00a_49
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e5de2d3882327a4fac96e5a40671531
+      internalID: -183227713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_13hair_dapper_00a_50
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad96a7c203f13b546b6cce6d96a733ed
+      internalID: -670159115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_13hair_dapper_00a_51
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58b713a45ca6c5b4f82c1c687fb175ef
+      internalID: 1462290312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_13hair_dapper_00a_52
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7d436e66abe4c9408c272f813fb2af3
+      internalID: -1903018235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_13hair_dapper_00a_53
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be5cbd62da36cea46bdf8b447081a34c
+      internalID: -1554570629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_13hair_dapper_00a_54
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c333370b2197c469486ab7d8318445
+      internalID: 693025076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_13hair_dapper_00a_55
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ac29736ade5864d84ace0d2e87ff23
+      internalID: -978427104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_13hair_dapper_00a_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0da5252d9a596844b33e95a5fdd15bb
+      internalID: 2030414992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_13hair_dapper_00a_65
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7466a5569cead3439186a51027f7c63
+      internalID: -329711571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_13hair_dapper_00a_66
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 394cf995010a2d945b6274e11e07e178
+      internalID: -1342883881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_13hair_dapper_00a_67
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c4127628585e44bbe450f83860180c
+      internalID: 416053831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_13hair_dapper_00a_68
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 334c5dcb040744846855f010f675de16
+      internalID: -1109096858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_13hair_dapper_00a_69
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089be69f07252e34fa13e963457472bf
+      internalID: 1360148935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_13hair_dapper_00a_70
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13e4b26700903704c920913ef0fde7ff
+      internalID: 113075342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fbas_13hair_dapper_00a_71
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e799e9f37087f94da91ac9887795fd5
+      internalID: 315460458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -89,7 +638,207 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      fbas_13hair_dapper_00a_181: -1240126118
+      fbas_13hair_dapper_00a_189: -1695721236
+      fbas_13hair_dapper_00a_190: -900628641
+      fbas_13hair_dapper_00a_130: -202509959
+      fbas_13hair_dapper_00a_165: -1775869839
+      fbas_13hair_dapper_00a_126: 1282546514
+      fbas_13hair_dapper_00a_2: -2067416261
+      fbas_13hair_dapper_00a_9: 1545938436
+      fbas_13hair_dapper_00a_20: 745107971
+      fbas_13hair_dapper_00a_164: -915070725
+      fbas_13hair_dapper_00a_163: 2020838652
+      fbas_13hair_dapper_00a_45: -1102123444
+      fbas_13hair_dapper_00a_111: 896421162
+      fbas_13hair_dapper_00a_86: 1557260920
+      fbas_13hair_dapper_00a_112: -662500394
+      fbas_13hair_dapper_00a_132: 144194694
+      fbas_13hair_dapper_00a_166: -1159045295
+      fbas_13hair_dapper_00a_122: 649992300
+      fbas_13hair_dapper_00a_59: 2117829612
+      fbas_13hair_dapper_00a_144: -1402822725
+      fbas_13hair_dapper_00a_40: -777590152
+      fbas_13hair_dapper_00a_78: -583923749
+      fbas_13hair_dapper_00a_89: -428986628
+      fbas_13hair_dapper_00a_154: 946673543
+      fbas_13hair_dapper_00a_19: -1551840541
+      fbas_13hair_dapper_00a_87: 1077800149
+      fbas_13hair_dapper_00a_53: -1554570629
+      fbas_13hair_dapper_00a_8: -717226573
+      fbas_13hair_dapper_00a_36: -1479610803
+      fbas_13hair_dapper_00a_150: -1928607532
+      fbas_13hair_dapper_00a_196: -745440716
+      fbas_13hair_dapper_00a_80: 1581805252
+      fbas_13hair_dapper_00a_159: -1991039684
+      fbas_13hair_dapper_00a_29: 1496309212
+      fbas_13hair_dapper_00a_39: -1932160959
+      fbas_13hair_dapper_00a_22: 230165658
+      fbas_13hair_dapper_00a_1: 1257825980
+      fbas_13hair_dapper_00a_184: 670228996
+      fbas_13hair_dapper_00a_6: 954147957
+      fbas_13hair_dapper_00a_50: -670159115
+      fbas_13hair_dapper_00a_108: -2016468197
+      fbas_13hair_dapper_00a_85: -1530972038
+      fbas_13hair_dapper_00a_116: 1760169021
+      fbas_13hair_dapper_00a_172: 289444618
+      fbas_13hair_dapper_00a_37: -1226246589
+      fbas_13hair_dapper_00a_7: -679864435
+      fbas_13hair_dapper_00a_140: -469568926
+      fbas_13hair_dapper_00a_66: -1342883881
+      fbas_13hair_dapper_00a_92: 660827377
+      fbas_13hair_dapper_00a_11: -1488321875
+      fbas_13hair_dapper_00a_32: -298189368
+      fbas_13hair_dapper_00a_192: -1059045031
+      fbas_13hair_dapper_00a_24: 50645163
+      fbas_13hair_dapper_00a_124: 1636303105
+      fbas_13hair_dapper_00a_125: -468928745
+      fbas_13hair_dapper_00a_153: 344301993
+      fbas_13hair_dapper_00a_160: 1805981756
+      fbas_13hair_dapper_00a_131: 463020380
+      fbas_13hair_dapper_00a_103: -901851229
+      fbas_13hair_dapper_00a_72: -1485456980
+      fbas_13hair_dapper_00a_170: 87231076
+      fbas_13hair_dapper_00a_173: 1827039428
+      fbas_13hair_dapper_00a_47: 1364533160
+      fbas_13hair_dapper_00a_119: -1767323021
+      fbas_13hair_dapper_00a_136: -1330237170
+      fbas_13hair_dapper_00a_168: -1896827125
+      fbas_13hair_dapper_00a_14: 165065647
+      fbas_13hair_dapper_00a_152: 627105614
+      fbas_13hair_dapper_00a_16: -642672977
+      fbas_13hair_dapper_00a_62: -1814429866
+      fbas_13hair_dapper_00a_25: -446095190
+      fbas_13hair_dapper_00a_49: -183227713
+      fbas_13hair_dapper_00a_95: 469705300
+      fbas_13hair_dapper_00a_137: -596581707
+      fbas_13hair_dapper_00a_38: 526669666
+      fbas_13hair_dapper_00a_52: -1903018235
+      fbas_13hair_dapper_00a_70: 113075342
+      fbas_13hair_dapper_00a_158: -269888947
+      fbas_13hair_dapper_00a_13: 2129718535
+      fbas_13hair_dapper_00a_48: -44895102
+      fbas_13hair_dapper_00a_65: -329711571
+      fbas_13hair_dapper_00a_174: 847587001
+      fbas_13hair_dapper_00a_191: 83614393
+      fbas_13hair_dapper_00a_113: -792408451
+      fbas_13hair_dapper_00a_90: -1131672610
+      fbas_13hair_dapper_00a_44: -313837508
+      fbas_13hair_dapper_00a_0: -1763994078
+      fbas_13hair_dapper_00a_98: 1878871918
+      fbas_13hair_dapper_00a_127: 1778036566
+      fbas_13hair_dapper_00a_114: -867389402
+      fbas_13hair_dapper_00a_42: 1846646411
+      fbas_13hair_dapper_00a_63: -1974912763
+      fbas_13hair_dapper_00a_46: 1834817515
+      fbas_13hair_dapper_00a_64: 2030414992
+      fbas_13hair_dapper_00a_109: 1994762823
+      fbas_13hair_dapper_00a_134: 1251105189
+      fbas_13hair_dapper_00a_71: 315460458
+      fbas_13hair_dapper_00a_61: 471141723
+      fbas_13hair_dapper_00a_175: -1274034754
+      fbas_13hair_dapper_00a_60: -1734385144
+      fbas_13hair_dapper_00a_128: 469771915
+      fbas_13hair_dapper_00a_56: -407043165
+      fbas_13hair_dapper_00a_182: 1469565835
+      fbas_13hair_dapper_00a_57: 1752465163
+      fbas_13hair_dapper_00a_55: -978427104
+      fbas_13hair_dapper_00a_73: -717049829
+      fbas_13hair_dapper_00a_27: 723780685
+      fbas_13hair_dapper_00a_58: 630825838
+      fbas_13hair_dapper_00a_23: 1214171230
+      fbas_13hair_dapper_00a_104: 57977384
+      fbas_13hair_dapper_00a_105: -60848354
+      fbas_13hair_dapper_00a_118: 727885776
+      fbas_13hair_dapper_00a_43: 1165733405
+      fbas_13hair_dapper_00a_157: 1016558540
+      fbas_13hair_dapper_00a_135: -1669973239
+      fbas_13hair_dapper_00a_123: -1213569333
+      fbas_13hair_dapper_00a_143: -990435288
+      fbas_13hair_dapper_00a_76: -325449743
+      fbas_13hair_dapper_00a_75: -909691271
+      fbas_13hair_dapper_00a_100: 1930274932
+      fbas_13hair_dapper_00a_169: -977791104
+      fbas_13hair_dapper_00a_5: 443575225
+      fbas_13hair_dapper_00a_167: -1384131504
+      fbas_13hair_dapper_00a_156: -2133863211
+      fbas_13hair_dapper_00a_148: -1906503707
+      fbas_13hair_dapper_00a_15: 1604344699
+      fbas_13hair_dapper_00a_171: 1985032292
+      fbas_13hair_dapper_00a_197: -831156974
+      fbas_13hair_dapper_00a_187: -2042671916
+      fbas_13hair_dapper_00a_31: -1250931068
+      fbas_13hair_dapper_00a_147: -335485930
+      fbas_13hair_dapper_00a_194: -327222496
+      fbas_13hair_dapper_00a_145: -1644806394
+      fbas_13hair_dapper_00a_97: -61997176
+      fbas_13hair_dapper_00a_18: -813216931
+      fbas_13hair_dapper_00a_146: 1720536643
+      fbas_13hair_dapper_00a_99: 467152854
+      fbas_13hair_dapper_00a_93: 1750106408
+      fbas_13hair_dapper_00a_54: 693025076
+      fbas_13hair_dapper_00a_115: 2116497580
+      fbas_13hair_dapper_00a_102: 1173248920
+      fbas_13hair_dapper_00a_141: 919667076
+      fbas_13hair_dapper_00a_4: 435956199
+      fbas_13hair_dapper_00a_177: 1310533294
+      fbas_13hair_dapper_00a_120: 2061518525
+      fbas_13hair_dapper_00a_26: -455242562
+      fbas_13hair_dapper_00a_178: -2061689612
+      fbas_13hair_dapper_00a_180: -545076114
+      fbas_13hair_dapper_00a_35: 1655229928
+      fbas_13hair_dapper_00a_51: 1462290312
+      fbas_13hair_dapper_00a_34: 196915320
+      fbas_13hair_dapper_00a_30: 15520365
+      fbas_13hair_dapper_00a_83: -1524463629
+      fbas_13hair_dapper_00a_91: -1775116318
+      fbas_13hair_dapper_00a_162: -956124889
+      fbas_13hair_dapper_00a_84: 1738206919
+      fbas_13hair_dapper_00a_138: -433219554
+      fbas_13hair_dapper_00a_67: 416053831
+      fbas_13hair_dapper_00a_176: -410286640
+      fbas_13hair_dapper_00a_179: -2088206534
+      fbas_13hair_dapper_00a_3: -1855273088
+      fbas_13hair_dapper_00a_151: 1642286239
+      fbas_13hair_dapper_00a_101: -1367138512
+      fbas_13hair_dapper_00a_110: 286656709
+      fbas_13hair_dapper_00a_77: 1993498672
+      fbas_13hair_dapper_00a_117: -1415844638
+      fbas_13hair_dapper_00a_133: -937954803
+      fbas_13hair_dapper_00a_28: -901667946
+      fbas_13hair_dapper_00a_12: -1003690038
+      fbas_13hair_dapper_00a_10: 1437740285
+      fbas_13hair_dapper_00a_155: -1888578689
+      fbas_13hair_dapper_00a_186: -333694241
+      fbas_13hair_dapper_00a_82: 1291881165
+      fbas_13hair_dapper_00a_33: -938398592
+      fbas_13hair_dapper_00a_161: 551290003
+      fbas_13hair_dapper_00a_81: 1506171433
+      fbas_13hair_dapper_00a_198: -1411258919
+      fbas_13hair_dapper_00a_139: -1365572506
+      fbas_13hair_dapper_00a_188: -2136051729
+      fbas_13hair_dapper_00a_129: 947855279
+      fbas_13hair_dapper_00a_142: 346955809
+      fbas_13hair_dapper_00a_69: 1360148935
+      fbas_13hair_dapper_00a_21: 1924410407
+      fbas_13hair_dapper_00a_74: -99521963
+      fbas_13hair_dapper_00a_107: 1568092795
+      fbas_13hair_dapper_00a_193: 1210614995
+      fbas_13hair_dapper_00a_88: -1437461411
+      fbas_13hair_dapper_00a_195: 1312037783
+      fbas_13hair_dapper_00a_96: 887648962
+      fbas_13hair_dapper_00a_185: -1880289710
+      fbas_13hair_dapper_00a_183: 466118463
+      fbas_13hair_dapper_00a_121: 1041342925
+      fbas_13hair_dapper_00a_17: -1850551824
+      fbas_13hair_dapper_00a_41: 1255408923
+      fbas_13hair_dapper_00a_106: -1778539439
+      fbas_13hair_dapper_00a_199: -1838141790
+      fbas_13hair_dapper_00a_79: 1302598921
+      fbas_13hair_dapper_00a_149: -1495660933
+      fbas_13hair_dapper_00a_68: -1109096858
+      fbas_13hair_dapper_00a_94: -1938460338
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
